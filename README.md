@@ -47,49 +47,49 @@ The API will have three endpoints, and the information is about the three endpoi
     http://apis.localrestaurant.com/cities/json?id=WPG&Name=Winnipeg
     ```
   * JSON file version -
-  ```
-  [
-      {
-        "id": "WPG"
-        "Name": "Winnipeg"
-        "restaurant":["Name":"Fions"]
-        "version": 1
-     }
-  ]
-  ```
+    ```
+    [
+        {
+          "id": "WPG"
+          "Name": "Winnipeg"
+          "restaurant":["Name":"Fions"]
+          "version": 1
+      }
+    ]
+    ```
 
 * Sample requests if a user wishes to check opening and closing times of a restaurant:
   * Browser version -
-  ```
-  http://apis.localrestaurant.com/Time/json?id=Winnipeg,Manitoba,StandardTime&name=KingHeadPub&support_overnight=false
-  http://apis.localrestaurant.com/Time/json?id=Winnipeg,Manitoba,StandardTime&name=KingHeadPub
-  ```
-  *JSON file version -
-  ```
-  [
-    {
-      "Id": "Winnipeg, Manitoba Central Time",
-      "Name": "King's Head Pub",
-      "support_overnight": "false"
-    }
-  ]
-  ```
+    ```
+    http://apis.localrestaurant.com/Time/json?id=Winnipeg,Manitoba,StandardTime&name=KingHeadPub&support_overnight=false
+    http://apis.localrestaurant.com/Time/json?id=Winnipeg,Manitoba,StandardTime&name=KingHeadPub
+    ```
+  * JSON file version -
+    ```
+    [
+      {
+        "Id": "Winnipeg, Manitoba Central Time",
+        "Name": "King's Head Pub",
+        "support_overnight": "false"
+      }
+    ]
+    ```
 * Sample requests if a user wishes to check the cuisine types in a city:
   * Browser version -
-  ```
-  http://apis.localrestaurant.com/Cuisine/json?id=WP&Name=filipinocuisine&version=1
-  http://apis.localrestaurant.com/Cuisine/json?id=WP&Name=filipinocuisine
-  ```
+    ```
+    http://apis.localrestaurant.com/Cuisine/json?id=WP&Name=filipinocuisine&version=1
+    http://apis.localrestaurant.com/Cuisine/json?id=WP&Name=filipinocuisine
+    ```
   * JSON file version -
-  ```
-  [
-      {
-        "id": "WPG",
-        "Name": "filipino cuisine"
-        "version":1
-      }
-  ]
-  ```
+    ```
+    [
+        {
+          "id": "WPG",
+          "Name": "filipino cuisine"
+          "version":1
+        }
+    ]
+    ```
 
 
 ## Sample response
